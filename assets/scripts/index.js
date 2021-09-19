@@ -8,3 +8,11 @@ $(window).scroll(function () {
         $(".navbar").fadeOut();
     }
 });
+
+$('.navbar-nav>li.nodropdown>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+});
+
+$('.dropdown-item').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+});
