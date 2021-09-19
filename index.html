@@ -58,25 +58,35 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link active dropdown-toggle" href="#" id="aboutDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">About Us</a></li>
-                            <li><a class="dropdown-item" href="#">Our mission</a></li>
-                            <li><a class="dropdown-item" href="#">Our Vision</a></li>
-                            <li><a class="dropdown-item" href="#">Our Objective</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                            <li><a class="dropdown-item" href="#mission">Our mission</a></li>
+                            <li><a class="dropdown-item" href="#vision">Our Vision</a></li>
+                            <li><a class="dropdown-item" href="#objective">Our Objective</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Activities</a>
+                        <a class="nav-link active" aria-current="page" href="#activities">Activities</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="workDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Work
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="workDropdown">
+                            <li><a class="dropdown-item" href="#current_work">Current Work</a></li>
+                            <li><a class="dropdown-item" href="#future_plan">Future Plan</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Staff</a>
+                        <a class="nav-link active" href="#staff">Staff</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Funding</a>
+                        <a class="nav-link active" href="#funding">Funding</a>
                     </li>
                 </ul>
             </div>
@@ -103,8 +113,8 @@
         </div>
     </header>
 
-    <main id="about" class="mt-5 pt-5">
-        <div class="text-center mt-5 mb-3 container">
+    <section id="about" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 About Us
             </h2>
@@ -119,6 +129,11 @@
                 </strong>
                 Day school, Vocational therapy, Parental counseling, Computer training.
             </p>
+        </div>
+    </section>
+
+    <section id="mission" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Our Mission
             </h2>
@@ -127,7 +142,12 @@
                 special needs
                 and their families
             </p>
-            <h2 class="mt-5">
+        </div>
+    </section>
+
+    <section id="vision" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
+            <h2 class=" mt-5">
                 Our Vision
             </h2>
             <p>
@@ -135,6 +155,11 @@
                 Even to make them
                 independent in maximum extent.
             </p>
+        </div>
+    </section>
+
+    <section id="objective" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Our Objective
             </h2>
@@ -143,7 +168,7 @@
                 and self-reliant.
             </p>
         </div>
-    </main>
+    </section>
 
     <section id="location">
         <div class="text-center mt-5 mb-3">
@@ -243,19 +268,21 @@
         </button>
     </div>
 
-    <section id="activities">
-        <div class="text-center mt-5 mb-3 container">
+    <section id="activities" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Activities
             </h2>
             <p>
                 Students of the age of 3 years onwards admitted and are placed into different levels play group to
                 vocational taking in
-                to consideration the chronological age, IQ, teachers’ observation, individual abilities and needs. They
+                to consideration the chronological age, IQ, teachers’ observation, individual abilities and needs.
+                They
                 are trained in
                 personal skills, psychological skills, motor skills, function academics, speech and language, art &
                 craft, yoga, music,
-                dance, drama, swimming, sports, computer, camp and various extra-curricular activities. Students have
+                dance, drama, swimming, sports, computer, camp and various extra-curricular activities. Students
+                have
                 participated and
                 excelled in special Olympics; inter school competitions in dance, drama, music, painting etc. and
                 achieved medals and
@@ -264,21 +291,22 @@
         </div>
     </section>
 
-    <section id="staff">
-        <div class="text-center mt-5 mb-3 container">
+    <section id="staff" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Staff
             </h2>
             <p>
-                Special Educators, Vocational instructor, Computer instructor, Music and Drawing teacher, Doctor, Speech
+                Special Educators, Vocational instructor, Computer instructor, Music and Drawing teacher, Doctor,
+                Speech
                 and
                 Occupational Therapist.
             </p>
         </div>
     </section>
 
-    <section id="funding">
-        <div class="text-center mt-5 mb-3 container">
+    <section id="funding" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Funding
             </h2>
@@ -292,8 +320,24 @@
         </div>
     </section>
 
-    <section id="future_plan">
-        <div class="text-center mt-5 mb-3 container">
+    <section id="current_work" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
+            <h2 class="mt-5">
+                Current work
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <p>
+                        Construction of new well-equipped school building to give highest level in education<br><br>
+                        <img src="./assets/images/current_work/new_plot.jpg" class="w-100" alt="">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future_plan" class="mt-5 pt-5">
+        <div class="text-center mt-5 container">
             <h2 class="mt-5">
                 Future Plan
             </h2>
@@ -309,29 +353,14 @@
         </div>
     </section>
 
-    <section id="current_work">
-        <div class="text-center mt-5 mb-3 container">
-            <h2 class="mt-5">
-                Current work
-            </h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-10">
-                    <p>
-                        Construction of new well-equipped school building to give highest level in education<br><br>
-                        <img src="./assets/images/current_work/new_plot.jpg" class="w-100" alt="">
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="help">
+    <section id="help" class="mt-5 pt-5">
         <div class="text-center mt-5 mb-3">
             <h2>
                 How you can help
             </h2>
             <p>
-                Buy donations in cash or kind (donation only by cross check in favor of "SHIVSHANKAR SHIKSHAN SANSTHA")
+                Buy donations in cash or kind (donation only by cross check in favor of "SHIVSHANKAR SHIKSHAN
+                SANSTHA")
                 <br>
                 By donating teacher salary
                 <br>
@@ -344,7 +373,7 @@
     </section>
 
     <section id="bank_details">
-        <div class="text-center mt-5 mb-3 container">
+        <div class="text-center mt-5 container">
             <h2>
                 Trust Bank details:
             </h2>
