@@ -27,15 +27,24 @@ h2{
 nav {
     background: #fff !important;
 }
+main{
+    background: url('../images/background/activities/activities_background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#about{
+  background-color: #001278b4;
+}
 header {
-    background: url('../images/header/header_background.jpg');
+    background: url('../images/background/header/header_background.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 header div.header_container{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     height: inherit;
 }
 header h1{
@@ -55,6 +64,9 @@ header a:hover{
     background-color: #001278;
     transition: 0.25s;
 }
+#monetary{
+    background-color: #ffffff;
+}
 .carousel-indicators {
     bottom: -70px;
 }
@@ -67,6 +79,9 @@ header a:hover{
     border-radius: 50%;
     margin: 0px 5px !important;
 }
+#activities{
+    background-color: #001278b4;
+}
 #location{
     width: 100%;
 }
@@ -75,7 +90,7 @@ header a:hover{
     width: 100%;
 }
 footer{
-    background-color: black;
+    background-color: #001278;
 }
 .foot_link{
     color: #fff;
@@ -124,4 +139,25 @@ footer{
 .foot_tel:hover {
   color: rgba(255, 255, 255, 0.562);
   transition: 0.4s;
+}
+#go_to_top{
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 20px;
+}
+#go_to_top svg{
+  color: #001278;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 3px solid #FF8D00;
+}
+.btn{
+  background-color: #001278 !important;
+  outline: none !important;
+  border: none !important;
+}
+.btn:hover{
+  transition: 0.3s;
+  background-color: #FF8D00 !important;
 }
