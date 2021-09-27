@@ -33,6 +33,18 @@ main{
     background-position: center;
     background-attachment: fixed;
 }
+#current_work{
+    background: url('../images/background/work/work_background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#current_work .text-center{
+    background-color: #001278b4;
+}
+#current_work img{
+  box-shadow: 0 0 0 5px #ffffff5b;
+}
 #about{
   background-color: #001278b4;
 }
