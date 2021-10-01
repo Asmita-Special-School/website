@@ -19,3 +19,15 @@ $('.navbar-nav>li.nodropdown>a').on('click', function () {
 $('.dropdown-item').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
+
+const $gallery = $('.gallery');
+$("#scroll_left").click(function () {
+    $gallery.animate({
+        scrollLeft: "-=500px"
+    }, "slow");
+});
+$("#scroll_right").click(function () {
+    $gallery.animate({
+        scrollLeft: "+=500px"
+    }, "slow");
+});
