@@ -199,3 +199,23 @@ footer{
 #scroll_left{
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .gallery img{
+        opacity: 1;
+        height: 300px;
+    }
+    .gallery img:hover{
+        transition: 0.3s;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .gallery img{
+        opacity: 1;
+        height: 250px;
+    }
+    .gallery img:hover{
+        transition: 0.3s;
+        height: 300px;
+    }
+}
